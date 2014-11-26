@@ -1,0 +1,20 @@
+"" Self-defined by minlin.zhang
+
+
+"" Window move keys                                                                                         
+map <c-j> <c-w>j                                                                                           
+map <c-k> <c-w>k                                                                                           
+map <c-l> <c-w>l                                                                                           
+map <c-h> <c-w>h                                                                                           
+
+"" Jedi-VIM
+" Using <C-n> other than <C-Space> in jedi-vim                                                             
+let g:jedi#completions_command = "<C-n>"
+let g:jedi#popup_on_dot = 1
+
+"" Reset <leader> key, not working here, should modify it in .vimrc
+let mapleader='\'
+
+"" syntastic flake8
+" Ignore E501 which is too long in line
+let g:syntastic_python_flake8_args = '--ignore=E501'
