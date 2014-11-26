@@ -1,4 +1,20 @@
 vimrc-ready
 ===========
 
-vimrc files which are ready to used
+# INTRODUCTION #
+This vimrc is generated using [http://vim-bootstrap.com](/http://vim-bootstrap.com/) with c/ruby/lua/go/python/html/javascript enabled at 2014-11-27 by minlin.zhang
+
+# INSTALL #
+Put this vimrc file and vimrc.local file into `~/.vimrc/`, and execute VIM:
+```
+vim +NeoBundleInstall +qall
+```
+
+Updating all bundles to the latest version, run VIM:
+```
+:NeoBundleUpdate
+```
+
+# NOTICE #
+The <leader> key will use default '\' other than ',' defined by vim-bootstrap, for more info, please visit it's github:
+[https://github.com/avelino/vim-bootstrap](https://github.com/avelino/vim-bootstrap)
