@@ -1,11 +1,13 @@
-vimrc-ready
-===========
+# vimrc-ready #
 
 ## INTRODUCTION ##
 This vimrc is generated using [http://vim-bootstrap.com](/http://vim-bootstrap.com/) with c/ruby/lua/go/python/html/javascript enabled at 2014-11-27 by minlin.zhang
 
 ## INSTALL ##
-Put this vimrc file and vimrc.local file into `~/.vimrc/`, and execute VIM:
+You can run the `install.sh` under this directory to install it automatically.
+
+#### Manual Install ####
+Put this vimrc / vimrc.local file into `~/.vimrc` / `~/.vimrc.local`, and execute VIM:
 ```
 vim +NeoBundleInstall +qall
 ```
