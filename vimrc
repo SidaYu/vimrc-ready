@@ -73,6 +73,10 @@ NeoBundle 'honza/vim-snippets'
 "" Color
 NeoBundle 'tomasr/molokai'
 
+"" Vim better whitespace
+NeoBundle "ntpeters/vim-better-whitespace"
+
+
 "" Custom bundles
 
 NeoBundle 'vim-scripts/c.vim'
